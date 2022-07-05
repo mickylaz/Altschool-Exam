@@ -37,7 +37,7 @@ function countEvenNumbers(arrayOfNumbers) {
         if(i === 0 || i % 2 !==0){
             count;
         }else {
-            count+=1;
+            count+=i;
         }
     }
     return count;
